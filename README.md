@@ -25,7 +25,7 @@
 ## 1. Background <a name="background"></a>
 
 <p align="justify">
-Coluxary is a manufacturing company analyzed as part of the EMERSON x DAPH National Data Challenge. This project explores production inefficiencies, downtime factors, operator behavior, and batch process failures using real operational logs. The findings aim to guide data-informed decisions for improving plant performance.
+This dataset is all about the Adventure Works, which is a global bicycle manufacturer and distributor analyzed using four years of historical sales data. This project explores overall sales performance, channel distribution, product category trends, top customers, and seasonal patterns, while also assessing profitability and pricing dynamics. Key findings reveal a strong reliance on reseller channels, a high-volume yet low-margin business model, and opportunities to grow profit through increased direct internet sales.
 </p>
 
 ---
@@ -33,28 +33,25 @@ Coluxary is a manufacturing company analyzed as part of the EMERSON x DAPH Natio
 ## 2. Objective <a name="objective"></a>
 
 <p align="justify">
-To provide comprehensive analysis of Coluxary's production efficiency, focusing on performance-impacting factors and offering data-driven recommendations. We will explore the root causes of downtime, assess batch flow interruptions, evaluate operator performance, and identify notable daily trends. The goal is to support operations managers and decision-makers with insights to guide targeted improvements aligned with efficiency objectives.
+The objective of this analysis is to provide an end-to-end examination of Adventure Works' sales data, focusing on sales performance across different countries, sales channels, product categories, and customer segments. The goal is to uncover actionable insights that can support management in making informed decisions, enhancing operational efficiency, increasing sales, and strengthening Adventure Works’ competitiveness in the retail industry.
 </p>
 
 ---
-## 3. Insights Deep-Dive <a name="insights-deep-dive"></a>
+## 3. Insights <a name="insights-deep-dive"></a>
 <a href="#toc">[ back to contents ]</a>
 
-### 3.1. Key Metrics <a name="key-metrics"></a>  <a href="#toc">[↑]</a>
+### 3.1. Key Metrics and Insights of Adventure Works <a name="key-metrics"></a>  <a href="#toc">[↑]</a>
 
 <div align="center">
-  <img src="https://github.com/RielRoque/coluxary-manufacturing-analysis-dashboard/blob/main/KP1.png?raw=true" width="85%">
-  <img src="https://github.com/RielRoque/coluxary-manufacturing-analysis-dashboard/blob/main/KPI2.png?raw=true" width="85%">
+  <img src="https://github.com/roque-riri2426/sql-excel/blob/main/key_metrics_1.png" width="85%">
+  <img src="https://github.com/roque-riri2426/sql-excel/blob/main/AD_sales_by_channel.png" width="85%">
+  <img src="https://github.com/roque-riri2426/sql-excel/blob/main/AD_sales_by_category.png" width="85%">
 </div> <br>
 
-- <p align="justify"> Production Efficiency:
-Current efficiency stands at 64%, falling short of the 85% target. The performance gap suggests room for improvement, particularly by examining the practices of high-performing operators like Charlie, compared to lower-performing ones such as Mac. Although Charlie seems the highest performing operator, we cannot deny the fact the he is still way below the 85% standard production efficiency. Therefore all of them must undergo a comprehensive training and a weekly monitoring of performance </p>
+- <p align="justify">
+The total sales over the four-year period reached $109.8M, demonstrating strong performance across different regions and countries, largely driven by reseller partnerships. Resellers accounted for 73% of total sales, boosting brand presence and market reach, while internet sales contributed only 27%. Bikes dominated the product mix, generating $94.6M in sales (86.17% of total revenue), whereas clothing, components, and accessories recorded relatively low sales.  </p>
 
-- <p align="justify"> Production Time:
-Out of 64 total hours, only 41 hours were spent in actual production, with 23 hours lost to downtime. The leading cause of this downtime is "Machine Adjustment." Addressing this issue could significantly improve overall productivity. </p>
-
-- <p align="justify"> Batches Processed:
-A total of 38 batches were processed, but only 3 were completed, with 35 experiencing disruptions. Batch 422147 was identified as a major source of issues. Further investigation is needed to determine the root causes of batch delays and implement corrective actions </p>
+<p align="justify"> Despite this strong sales volume, gross profit over the four years was only $12.6M, reflecting the impact of a reseller-focused model. Because resellers require competitive wholesale prices to maintain their own margins, Adventure Works sells products to them at lower costs, resulting in thinner or lower profit margins. This heavy reliance on resellers limits the company’s ability to sell more products at retail prices, contributing to lower overall profitability. Additionally, the underperformance of the internet channel further restricts higher-margin sales opportunities. </p>
 
 ---
 ### 3.2. Impact Of Operator and Machine-Related Downtime On Production Efficiency <a name="Impact-Efficiency"></a>  <a href="#toc">[↑]</a>
