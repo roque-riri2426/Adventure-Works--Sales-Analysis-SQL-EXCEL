@@ -63,7 +63,6 @@ The objective of this analysis is to provide an end-to-end examination of Advent
 
 ---
 ### 3.2. Monthly Sales Trend <a name="Monthly-Sales-Trend"></a>  <a href="#toc">[↑]</a>
-
 <div align="center">
   <img src="https://github.com/roque-riri2426/sql-excel/blob/main/monthly_sales_trend.png" width="60%">
 </div> <br>
