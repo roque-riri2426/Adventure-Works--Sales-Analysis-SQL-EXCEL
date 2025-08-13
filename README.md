@@ -13,8 +13,8 @@
 [3. Key Insights](#insights-deep-dive) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;[3.1. Key Metrics and Insights of Adventure Works](#key-metrics)  <br>
 &nbsp;&nbsp;&nbsp;&nbsp;[3.2. Monthly Sales Trend](#monthly-sales-trend)  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;[3.3. Top Customers](#Top-Customers)  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;[3.4. Top Models](#Top-Models)  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;[3.3. Top Customers](#top-customers)  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;[3.4. Top Models](#top-models)  <br>
 [4. Recommendations](#recommendations)  <br>
 [5. Key Takeaways](#key-takeaways)  <br>
 
@@ -68,7 +68,7 @@ The objective of this analysis is to provide an end-to-end examination of Advent
 - <p align="justify"> Over the four years, sales consistently peaked in February, May, August, September, and November, showing clear demand cycles throughout the year. Since most sales come from resellers, these spikes are likely tied to bulk restocking schedules and seasonal promotions rather than just direct customer purchases. Knowing when these surges happen can help Adventure Works plan production, manage inventory, and time promotions more effectively, while also finding ways to boost sales in the quieter months through direct-to-consumer efforts. </p>
 
 ---
-### 3.3. Top 5 Customers <a name="Top-Customers"></a>  <a href="#toc">[↑]</a>
+### 3.3. Top 5 Customers <a name="top-customers"></a>  <a href="#toc">[↑]</a>
 
 <div align="center">
   <img src="https://github.com/roque-riri2426/sql-excel/blob/main/top-5-customers.png" width="60%">
@@ -77,7 +77,7 @@ The objective of this analysis is to provide an end-to-end examination of Advent
 - <p align="justify"> Over the four-year period, the top customers contributed only a small share of the total $109.8M in sales, indicating that no single retail buyer plays a major role in overall revenue. This reflects Adventure Works’ reseller-focused approach, where most large sales volumes come from business accounts or bulk orders that are spread across multiple customer records. As a result, individual end-customer purchases have little impact, and the company’s revenue is largely fueled by high-volume B2B transactions rather than repeat high-value retail customers. </p>
 
 ---
-### 3.4. Top 5 Models <a name="Top-Models"></a>  <a href="#toc">[↑]</a>
+### 3.4. Top 5 Models <a name="top-models"></a>  <a href="#toc">[↑]</a>
 
 <div align="center">
   <img src="https://github.com/roque-riri2426/sql-excel/blob/main/top-5-models.png" width="60%">
