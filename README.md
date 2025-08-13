@@ -12,7 +12,7 @@
 [2. Objective](#objective)<br>
 [3. Key Insights](#insights-deep-dive) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;[3.1. Key Metrics and Insights of Adventure Works](#key-metrics)  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;[3.2. Impact Of Operator and Machine-Related Downtime On Production Efficiency](#Impact-Efficiency)  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;[3.2. Monthly Sales Trend](#Monthly-Sales-Trend)  <br>
 &nbsp;&nbsp;&nbsp;&nbsp;[3.3. Primary Causes of Downtime](#Causes-Downtime)  <br>
 &nbsp;&nbsp;&nbsp;&nbsp;[3.4. Uptime and Downtime Vary Among Operators](#Downtime-Days)  <br>
 &nbsp;&nbsp;&nbsp;&nbsp;[3.5. Peak Downtime Days](#DowntimeUptime-Operators)<br>
@@ -56,20 +56,19 @@ The objective of this analysis is to provide an end-to-end examination of Advent
 - <p align="justify"> Despite this strong sales volume, gross profit over the four years was only $12.6M, reflecting the impact of a reseller-focused model. Because resellers require competitive wholesale prices to maintain their own margins, Adventure Works sells products to them at lower costs, resulting in thinner or lower profit margins. This heavy reliance on resellers limits the company’s ability to sell more products at retail prices, contributing to lower overall profitability. Additionally, the underperformance of the internet channel further restricts higher-margin sales opportunities. </p>
 
 <div align="center">
-  <img src="https://github.com/roque-riri2426/sql-excel/blob/main/key_metrics_2.png" width="40%">
+  <img src="https://github.com/roque-riri2426/sql-excel/blob/main/key_metrics_2.png" width="60%">
 </div> <br>
 
 - <p align="justify"> Over the four-year period, Adventure Works served 18.5K customers, averaging around 4,625 per year. This relatively modest customer count, alongside an average order value of $3.5K, reflects the company’s heavy reliance on resellers making large-volume purchases rather than numerous smaller direct-to-consumer transactions. While this bulk-order model drives high sales volume, it operates at low margins due to competitive wholesale pricing, which limits profitability. Expanding internet sales could diversify the customer base, lower the average order size, and increase profit margins by enabling more sales at retail prices. </p>
 
 ---
-### 3.2. Impact Of Operator and Machine-Related Downtime On Production Efficiency <a name="Impact-Efficiency"></a>  <a href="#toc">[↑]</a>
+### 3.2. Monthly Sales Trend <a name="Monthly-Sales-Trend"></a>  <a href="#toc">[↑]</a>
 
 <div align="center">
-  <img src="https://github.com/RielRoque/coluxary-manufacturing-analysis-dashboard/blob/main/impact%20of%20operator%20and%20machine%20downtime%20on%20production%20efficiency%20chart.png?raw=true" width="60%">
+  <img src="https://github.com/roque-riri2426/sql-excel/blob/main/monthly_sales_trend.png" width="60%">
 </div> <br>
 
-- <p align="justify"> Impact Of Operator and Machine-Related Downtime On Production Efficiency:
-Production efficiency is currently at 64%, underscoring a significant performance gap. Of the 23 hours lost to downtime, 56% stem from operator-related issues, while the remaining 44% are due to mechanical failures and maintenance. Notably, the CO-600 product accounts for the highest share of downtime, with 494 minutes. This product represents a key operational bottleneck and warrants immediate attention to improve overall output.</p>
+- <p align="justify"> Over the four years, sales consistently peaked in February, May, August, September, and November, showing clear demand cycles throughout the year. Since most sales come from resellers, these spikes are likely tied to bulk restocking schedules and seasonal promotions rather than just direct customer purchases. Knowing when these surges happen can help Adventure Works plan production, manage inventory, and time promotions more effectively, while also finding ways to boost sales in the quieter months through direct-to-consumer efforts. </p>
 
 ---
 ### 3.3. Primary Causes of Downtime <a name="Causes-Downtime"></a>  <a href="#toc">[↑]</a>
