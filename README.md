@@ -12,7 +12,7 @@
 [2. Objective](#objective)<br>
 [3. Key Insights](#insights-deep-dive) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;[3.1. Key Metrics and Insights of Adventure Works](#key-metrics)  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;[3.2. Monthly Sales Trend](#Monthly-Sales-Trend)  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;[3.2. Monthly Sales Trend](#monthly-sales-trend)  <br>
 &nbsp;&nbsp;&nbsp;&nbsp;[3.3. Top Customers](#Top-Customers)  <br>
 &nbsp;&nbsp;&nbsp;&nbsp;[3.4. Top Models](#Top-Models)  <br>
 [4. Recommendations](#recommendations)  <br>
@@ -60,7 +60,7 @@ The objective of this analysis is to provide an end-to-end examination of Advent
 - <p align="justify"> Over the four-year period, Adventure Works served 18.5K customers, averaging around 4,625 per year. This relatively modest customer count, alongside an average order value of $3.5K, reflects the company’s heavy reliance on resellers making large-volume purchases rather than numerous smaller direct-to-consumer transactions. While this bulk-order model drives high sales volume, it operates at low margins due to competitive wholesale pricing, which limits profitability. Expanding internet sales could diversify the customer base, lower the average order size, and increase profit margins by enabling more sales at retail prices. </p>
 
 ---
-### 3.2. Monthly Sales Trend <a name="Monthly-Sales-Trend"></a>  <a href="#toc">[↑]</a>
+### 3.2. Monthly Sales Trend <a name="monthly-sales-trend"></a>  <a href="#toc">[↑]</a>
 <div align="center">
   <img src="https://github.com/roque-riri2426/sql-excel/blob/main/monthly_sales_trend.png" width="60%">
 </div> <br>
@@ -76,7 +76,7 @@ The objective of this analysis is to provide an end-to-end examination of Advent
 
 - <p align="justify"> Over the four-year period, the top customers contributed only a small share of the total $109.8M in sales, indicating that no single retail buyer plays a major role in overall revenue. This reflects Adventure Works’ reseller-focused approach, where most large sales volumes come from business accounts or bulk orders that are spread across multiple customer records. As a result, individual end-customer purchases have little impact, and the company’s revenue is largely fueled by high-volume B2B transactions rather than repeat high-value retail customers. </p>
 
-
+---
 ### 3.4. Top 5 Models <a name="Top-Models"></a>  <a href="#toc">[↑]</a>
 
 <div align="center">
@@ -85,6 +85,7 @@ The objective of this analysis is to provide an end-to-end examination of Advent
 
 - <p align="justify"> These top models dominate product sales, with the Mountain-200 alone bringing in $22.3M over four years. All five are high-end bike models, which shows that Adventure Works’ revenue is heavily concentrated in its bicycle line rather than in accessories, clothing, or components. This focus on premium bikes likely drives high sales volume but also ties performance closely to the cycling market’s seasonal and economic trends, making the business more vulnerable to shifts in demand for these specific models.</p>
 
+---
 ###  Recommendations <a name="recommendations"></a>
 - <p align="justify">Strengthen Internet Sales Channel
 Invest in e-commerce infrastructure, digital marketing, and customer loyalty programs to increase direct-to-consumer sales. This will help improve profit margins by reducing dependence on low-margin reseller transactions.</p>
@@ -103,6 +104,7 @@ Identify top-performing reseller accounts and offer incentive programs, marketin
 
 - <p align="justify">Implementing these recommendations will help Adventure Works improve profitability, balance its sales channels, and reduce over-reliance on bulk reseller orders. A phased approach will ensure steady growth without risking reseller relationships.</p>
 
+---
 ###  Key Takeaways <a name="key-takeaways"></a>
 - <p align="justify">Reseller Dependency
 73% of total sales come from resellers, driving high volume but resulting in lower profit margins due to competitive wholesale pricing.</p>
