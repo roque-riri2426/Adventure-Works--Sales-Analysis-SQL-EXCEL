@@ -53,7 +53,7 @@ The objective of this analysis is to provide an end-to-end examination of Advent
   <img src="https://github.com/roque-riri2426/sql-excel/blob/main/AD_sales_by_channel.png" width="40%">
 </div> <br>
 
-<p align="justify"> Despite this strong sales volume, gross profit over the four years was only $12.6M, reflecting the impact of a reseller-focused model. Because resellers require competitive wholesale prices to maintain their own margins, Adventure Works sells products to them at lower costs, resulting in thinner or lower profit margins. This heavy reliance on resellers limits the company’s ability to sell more products at retail prices, contributing to lower overall profitability. Additionally, the underperformance of the internet channel further restricts higher-margin sales opportunities. </p>
+-<p align="justify"> Despite this strong sales volume, gross profit over the four years was only $12.6M, reflecting the impact of a reseller-focused model. Because resellers require competitive wholesale prices to maintain their own margins, Adventure Works sells products to them at lower costs, resulting in thinner or lower profit margins. This heavy reliance on resellers limits the company’s ability to sell more products at retail prices, contributing to lower overall profitability. Additionally, the underperformance of the internet channel further restricts higher-margin sales opportunities. </p>
 
 ---
 ### 3.2. Impact Of Operator and Machine-Related Downtime On Production Efficiency <a name="Impact-Efficiency"></a>  <a href="#toc">[↑]</a>
