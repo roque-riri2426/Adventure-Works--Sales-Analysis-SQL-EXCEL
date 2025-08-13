@@ -13,10 +13,8 @@
 [3. Key Insights](#insights-deep-dive) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;[3.1. Key Metrics and Insights of Adventure Works](#key-metrics)  <br>
 &nbsp;&nbsp;&nbsp;&nbsp;[3.2. Monthly Sales Trend](#Monthly-Sales-Trend)  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;[3.3. Primary Causes of Downtime](#Causes-Downtime)  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;[3.4. Uptime and Downtime Vary Among Operators](#Downtime-Days)  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;[3.5. Peak Downtime Days](#DowntimeUptime-Operators)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[3.6. Operator Performance](#operator-performance)  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;[3.3. Top Customers](#Top-Customers)  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;[3.4. Top Models](#Top-Models)  <br>
 [4. Recommendations](#recommendations)  <br>
 [5. Key Takeaways](#key-takeaways)  <br>
 
@@ -70,92 +68,62 @@ The objective of this analysis is to provide an end-to-end examination of Advent
 - <p align="justify"> Over the four years, sales consistently peaked in February, May, August, September, and November, showing clear demand cycles throughout the year. Since most sales come from resellers, these spikes are likely tied to bulk restocking schedules and seasonal promotions rather than just direct customer purchases. Knowing when these surges happen can help Adventure Works plan production, manage inventory, and time promotions more effectively, while also finding ways to boost sales in the quieter months through direct-to-consumer efforts. </p>
 
 ---
-### 3.3. Primary Causes of Downtime <a name="Causes-Downtime"></a>  <a href="#toc">[↑]</a>
+### 3.3. Top 5 Customers <a name="Top-Customers"></a>  <a href="#toc">[↑]</a>
 
 <div align="center">
-  <img src="https://github.com/RielRoque/coluxary-manufacturing-analysis-dashboard/blob/main/primary%20causes%20chart.png?raw=true" width="60%">
+  <img src="https://github.com/roque-riri2426/sql-excel/blob/main/top-5-customers.png" width="60%">
 </div> <br>
 
-- <p align="justify"> Downtime Causes:
-Production efficiency is currently at 64%, underscoring a significant performance gap. Of the 23 hours lost to downtime, 56% stem from operator-related issues, while the remaining 44% are due to mechanical failures and maintenance. Notably, the CO-600 product accounts for the highest share of downtime, with 494 minutes. This product represents a key operational bottleneck and warrants immediate attention to improve overall output.</p>
+- <p align="justify"> Over the four-year period, the top customers contributed only a small share of the total $109.8M in sales, indicating that no single retail buyer plays a major role in overall revenue. This reflects Adventure Works’ reseller-focused approach, where most large sales volumes come from business accounts or bulk orders that are spread across multiple customer records. As a result, individual end-customer purchases have little impact, and the company’s revenue is largely fueled by high-volume B2B transactions rather than repeat high-value retail customers. </p>
 
 
-### 3.4. Uptime and Downtime Vary Among Operators <a name="Downtime-Days"></a>  <a href="#toc">[↑]</a>
+### 3.4. Top 5 Models <a name="Top-Models"></a>  <a href="#toc">[↑]</a>
 
 <div align="center">
-  <img src="https://github.com/RielRoque/coluxary-manufacturing-analysis-dashboard/blob/main/UPTIME%20AND%20DOWNTIME%20AMONG%20OPERATORS.png?raw=true" width="60%">
+  <img src="https://github.com/roque-riri2426/sql-excel/blob/main/top-5-models.png" width="60%">
 </div> <br>
 
-- <p align="justify"> Charlie records the highest uptime at 774 minutes, indicating the largest operational contribution among all operators. However, he also has the highest downtime at 384 minutes, pointing to a significant amount of non-productive time. In contrast, Mac shows a lower uptime of 518 minutes—comparable to Dennis—but still accumulates a notable 332 minutes of downtime. This suggests that while Charlie handles substantially more workload, his efficiency is offset by frequent interruptions</p>
+- <p align="justify"> These top models dominate product sales, with the Mountain-200 alone bringing in $22.3M over four years. All five are high-end bike models, which shows that Adventure Works’ revenue is heavily concentrated in its bicycle line rather than in accessories, clothing, or components. This focus on premium bikes likely drives high sales volume but also ties performance closely to the cycling market’s seasonal and economic trends, making the business more vulnerable to shifts in demand for these specific models.</p>
 
+4. Recommendations <a name="recommendations"></a>
+<p align="justify">**Strengthen Internet Sales Channel**
+Invest in e-commerce infrastructure, digital marketing, and customer loyalty programs to increase direct-to-consumer sales. This will help improve profit margins by reducing dependence on low-margin reseller transactions.</p>
 
-### 3.5. Peak Downtime Days <a name="DowntimeUptime-Operators"></a>  <a href="#toc">[↑]</a>
+<p align="justify">**Rebalance Channel Mix**
+Gradually shift 5–10% of reseller sales toward internet sales while maintaining reseller relationships. This can be done by offering exclusive online promotions or product bundles that encourage direct purchases.</p>
 
-<div align="center">
-  <img src="https://github.com/RielRoque/coluxary-manufacturing-analysis-dashboard/blob/main/uptime%20and%20downtime%20among%20operators%20chart.png?raw=true" width="60%">
-</div> <br>
+<p align="justify">**Optimize Product Mix**
+Encourage sales of higher-margin categories such as accessories, clothing, and components, which currently have low sales share. Use targeted promotions or bundle these with bike purchases to boost cross-selling.</p>
 
-- <p align="justify"> The chart highlights two distinct peaks in downtime: the highest on September 2nd (503 minutes), and a significant peak on August 30th (444 minutes). Downtime was notably lower on August 29th (244 minutes), reached its lowest point on August 31st (165 minutes), and dropped to very low levels by September 3rd. This indicates a fluctuating pattern with specific days experiencing major operational interruptions.</p>
+<p align="justify">**Leverage Seasonal Sales Trends**
+Plan inventory and marketing campaigns around peak months (February, May, August, September, and November). Coordinate with resellers to align bulk orders with these periods while also running direct online promotions.</p>
 
-### 3.6. Operator Performance <a name="operator-performance"></a>  <a href="#toc">[↑]</a>
+<p align="justify">**Analyze and Reward High-Performing Resellers**
+Identify top-performing reseller accounts and offer incentive programs, marketing support, or priority inventory allocation to encourage sustained performance and loyalty.</p>
 
-<div align="center">
-  <img src="https://github.com/RielRoque/coluxary-manufacturing-analysis-dashboard/blob/main/operator%20performance%20table.png?raw=true" width="60%">
-</div> <br>
+<p align="justify">Implementing these recommendations will help Adventure Works improve profitability, balance its sales channels, and reduce over-reliance on bulk reseller orders. A phased approach will ensure steady growth without risking reseller relationships.</p>
+5. Key Takeaways <a name="key-takeaways"></a>
+<p align="justify">**Reseller Dependency**
+73% of total sales come from resellers, driving high volume but resulting in lower profit margins due to competitive wholesale pricing.</p>
 
-- <p align="justify">Charlie leads in efficiency at 66.84%, the highest among all operators, with the lowest inefficiency rate of 33.16%. He completed 1 batch despite experiencing 10 disruptions. In contrast, Mac is the least efficient at 60.94%, with the highest inefficiency rate of 39.06%, also completing 1 batch but with fewer disruptions (7). Dennis, although he completed no batch, maintains a 63.17% efficiency, affected by 8 disruptions. Dee falls in the middle with a 64.08% efficiency, completing 1 batch and encountering 10 disruptions. The overall team efficiency stands at 64.02%.</p>
+<p align="justify">**Low Internet Sales Share**
+Internet sales account for only 27% of revenue, limiting opportunities for higher-margin direct sales.</p>
 
+<p align="justify">**Product Sales Concentration**
+Bikes generate 86.17% of sales ($94.6M), while accessories, clothing, and components make up a small share, signaling low diversification in revenue sources.</p>
 
-## 4. Recommendations<a name="recommendations"></a>
+<p align="justify">**Seasonal Peaks**
+Sales consistently spike in February, May, August, September, and November, likely driven by reseller restocking schedules and seasonal market demand.</p>
 
-- <p align="justify">Reduce Downtime at Source
-Prioritize top 3 causes: Machine Adjustment, Failure, Inventory Shortage. Standardize setup, strengthen preventive maintenance, and ensure stock readiness.</p>
-
-- <p align="justify">Address Operator Gaps
-Provide targeted coaching to Mac, benchmark Charlie's methods, and set operator-level KPIs for efficiency, disruptions, and uptime.</p>
-
-- <p align="justify">Fix Batch Process Breakdown
-Analyze reasons for batch failures (35 of 38), investigate SOPs for starting/switching batches, and improve cross-role communication during handoffs.</p>
-
-- <p align="justify">Introduce Daily Monitoring
-Log daily downtime by category, operator, and machine. Investigate recurring delays on peak days, and use visuals to spot patterns.
-</p>
-
-- <p align="justify">Phase-Based Targeting
-Set short-term goals (e.g., 70% efficiency in 2 weeks). Use weekly reviews and operator scorecards to track progress, avoiding rushing to 85% as it might have a negative impact instead of positive.
-
-</p>
-
-- <p align="justify">Implementing these strategic recommendations will be critical for our success. We advocate for a phased approach, starting with immediate actions to reduce downtime and improve operator performance. Establishing clear KPIs and regular monitoring will ensure accountability and allow us to adapt our strategy as we progress towards our ultimate efficiency goals.
-</p>
-
-
-## 5. Key Takeaways <a name="key-takeaways"></a>
-
-- <p align="justify">Underperformance Causes
-Production is underperforming due to mechanical inefficiencies, batch execution problems, and uneven operator performance.
-
-</p>
-
-- <p align="justify">Key Improvement Areas
-Focus on the top 5 downtime issues, reinforce operator training, and improve batch workflow to directly raise efficiency.
-
-</p>
-
-- <p align="justify">Immediate Priorities
-Begin with Machine Adjustments, Macs performance, and the underlying causes of batch disruptions for the most immediate impact. 
-
-</p>
+<p align="justify">**Scattered High-Value Customers**
+Top customers individually contribute small sales amounts, suggesting that revenue is widely distributed across multiple reseller accounts rather than concentrated in a few large retail buyers.</p>
 
 ---
 
 ### Tools & Technologies Used
 
-- Power BI (Interactive Dashboard & Visuals)  
-- Excel (Pre-analysis inspection)  
-- Power Query (Data Manipulation and Cleaning)
+- MS Excel (Interactive Dashboard & Visuals)  
+- MYSQL (Exploratory Data Analysis)  
+- Power Query and Power Pivot (Data Manipulation, Cleaning and Modeling)
 
 
----
-
-**EMERSON X DAPH Data Challenge by Riel Roque** 🚀
