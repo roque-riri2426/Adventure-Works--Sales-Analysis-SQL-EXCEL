@@ -43,9 +43,9 @@ The objective of this analysis is to provide an end-to-end examination of Advent
 ### 3.1. Key Metrics and Insights of Adventure Works <a name="key-metrics"></a>  <a href="#toc">[↑]</a>
 
 <div align="center">
-  <img src="https://github.com/roque-riri2426/sql-excel/blob/main/key_metrics_1.png" width="50%">
-  <img src="https://github.com/roque-riri2426/sql-excel/blob/main/AD_sales_by_channel.png" width="40%">
-  <img src="https://github.com/roque-riri2426/sql-excel/blob/main/AD_sales_by_category.png" width="40%">
+  <img src="https://github.com/roque-riri2426/sql-excel/blob/main/key_metrics_1.png" width="60%">
+  <img src="https://github.com/roque-riri2426/sql-excel/blob/main/AD_sales_by_channel.png" width="30%">
+  <img src="https://github.com/roque-riri2426/sql-excel/blob/main/AD_sales_by_category.png" width="30%">
 </div> <br>
 
 - <p align="justify">
