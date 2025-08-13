@@ -47,8 +47,7 @@ The objective of this analysis is to provide an end-to-end examination of Advent
   <img src="https://github.com/roque-riri2426/sql-excel/blob/main/AD_sales_by_category.png" width="40%">
 </div> <br>
 
-- <p align="justify">
-The total sales over the four-year period reached $109.8M, demonstrating strong performance across different regions and countries, largely driven by reseller partnerships. Resellers accounted for 73% of total sales, boosting brand presence and market reach, while internet sales contributed only 27%. Bikes dominated the product mix, generating $94.6M in sales (86.17% of total revenue), whereas clothing, components, and accessories recorded relatively low sales.  </p>
+- <p align="justify">The total sales over the four-year period reached $109.8M, demonstrating strong performance across different regions and countries, largely driven by reseller partnerships. Resellers accounted for 73% of total sales, boosting brand presence and market reach, while internet sales contributed only 27%. Bikes dominated the product mix, generating $94.6M in sales (86.17% of total revenue), whereas clothing, components, and accessories recorded relatively low sales.  </p>
 
 <div align="center">
   <img src="https://github.com/roque-riri2426/sql-excel/blob/main/AD_sales_by_channel.png" width="40%">
