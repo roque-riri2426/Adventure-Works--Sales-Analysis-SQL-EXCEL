@@ -11,7 +11,7 @@
 [1. Background](#background)  <br>
 [2. Objective](#objective)<br>
 [3. Insights Deep-Dive](#insights-deep-dive) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;[3.1. Key Metrics](#key-metrics)  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;[3.1. Key Metrics and Insights of Adventure Works](#key-metrics)  <br>
 &nbsp;&nbsp;&nbsp;&nbsp;[3.2. Impact Of Operator and Machine-Related Downtime On Production Efficiency](#Impact-Efficiency)  <br>
 &nbsp;&nbsp;&nbsp;&nbsp;[3.3. Primary Causes of Downtime](#Causes-Downtime)  <br>
 &nbsp;&nbsp;&nbsp;&nbsp;[3.4. Uptime and Downtime Vary Among Operators](#Downtime-Days)  <br>
@@ -44,8 +44,8 @@ The objective of this analysis is to provide an end-to-end examination of Advent
 
 <div align="center">
   <img src="https://github.com/roque-riri2426/sql-excel/blob/main/key_metrics_1.png" width="85%">
-  <img src="https://github.com/roque-riri2426/sql-excel/blob/main/AD_sales_by_channel.png" width="85%">
-  <img src="https://github.com/roque-riri2426/sql-excel/blob/main/AD_sales_by_category.png" width="85%">
+  <img src="https://github.com/roque-riri2426/sql-excel/blob/main/AD_sales_by_channel.png" width="50%">
+  <img src="https://github.com/roque-riri2426/sql-excel/blob/main/AD_sales_by_category.png" width="50%">
 </div> <br>
 
 - <p align="justify">
