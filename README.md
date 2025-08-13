@@ -10,7 +10,7 @@
 
 [1. Background](#background)  <br>
 [2. Objective](#objective)<br>
-[3. Insights Deep-Dive](#insights-deep-dive) <br>
+[3. Key Insights](#insights-deep-dive) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;[3.1. Key Metrics and Insights of Adventure Works](#key-metrics)  <br>
 &nbsp;&nbsp;&nbsp;&nbsp;[3.2. Impact Of Operator and Machine-Related Downtime On Production Efficiency](#Impact-Efficiency)  <br>
 &nbsp;&nbsp;&nbsp;&nbsp;[3.3. Primary Causes of Downtime](#Causes-Downtime)  <br>
@@ -37,7 +37,7 @@ The objective of this analysis is to provide an end-to-end examination of Advent
 </p>
 
 ---
-## 3. Insights <a name="insights-deep-dive"></a>
+## 3. Key Insights <a name="insights-deep-dive"></a>
 <a href="#toc">[ back to contents ]</a>
 
 ### 3.1. Key Metrics and Insights of Adventure Works <a name="key-metrics"></a>  <a href="#toc">[↑]</a>
