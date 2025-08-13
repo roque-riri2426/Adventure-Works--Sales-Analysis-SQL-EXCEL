@@ -85,37 +85,38 @@ The objective of this analysis is to provide an end-to-end examination of Advent
 
 - <p align="justify"> These top models dominate product sales, with the Mountain-200 alone bringing in $22.3M over four years. All five are high-end bike models, which shows that Adventure Works’ revenue is heavily concentrated in its bicycle line rather than in accessories, clothing, or components. This focus on premium bikes likely drives high sales volume but also ties performance closely to the cycling market’s seasonal and economic trends, making the business more vulnerable to shifts in demand for these specific models.</p>
 
-4. Recommendations <a name="recommendations"></a>
-<p align="justify">**Strengthen Internet Sales Channel**
+###  Recommendations <a name="recommendations"></a>
+- <p align="justify">Strengthen Internet Sales Channel
 Invest in e-commerce infrastructure, digital marketing, and customer loyalty programs to increase direct-to-consumer sales. This will help improve profit margins by reducing dependence on low-margin reseller transactions.</p>
 
-<p align="justify">**Rebalance Channel Mix**
+- <p align="justify">Rebalance Channel Mix
 Gradually shift 5–10% of reseller sales toward internet sales while maintaining reseller relationships. This can be done by offering exclusive online promotions or product bundles that encourage direct purchases.</p>
 
-<p align="justify">**Optimize Product Mix**
+- <p align="justify">Optimize Product Mix
 Encourage sales of higher-margin categories such as accessories, clothing, and components, which currently have low sales share. Use targeted promotions or bundle these with bike purchases to boost cross-selling.</p>
 
-<p align="justify">**Leverage Seasonal Sales Trends**
+- <p align="justify">Leverage Seasonal Sales Trends
 Plan inventory and marketing campaigns around peak months (February, May, August, September, and November). Coordinate with resellers to align bulk orders with these periods while also running direct online promotions.</p>
 
-<p align="justify">**Analyze and Reward High-Performing Resellers**
+- <p align="justify">Analyze and Reward High-Performing Resellers
 Identify top-performing reseller accounts and offer incentive programs, marketing support, or priority inventory allocation to encourage sustained performance and loyalty.</p>
 
-<p align="justify">Implementing these recommendations will help Adventure Works improve profitability, balance its sales channels, and reduce over-reliance on bulk reseller orders. A phased approach will ensure steady growth without risking reseller relationships.</p>
-5. Key Takeaways <a name="key-takeaways"></a>
-<p align="justify">**Reseller Dependency**
+- <p align="justify">Implementing these recommendations will help Adventure Works improve profitability, balance its sales channels, and reduce over-reliance on bulk reseller orders. A phased approach will ensure steady growth without risking reseller relationships.</p>
+
+###  Key Takeaways <a name="key-takeaways"></a>
+- <p align="justify">Reseller Dependency
 73% of total sales come from resellers, driving high volume but resulting in lower profit margins due to competitive wholesale pricing.</p>
 
-<p align="justify">**Low Internet Sales Share**
+- <p align="justify">Low Internet Sales Share
 Internet sales account for only 27% of revenue, limiting opportunities for higher-margin direct sales.</p>
 
-<p align="justify">**Product Sales Concentration**
+- <p align="justify">Product Sales Concentration
 Bikes generate 86.17% of sales ($94.6M), while accessories, clothing, and components make up a small share, signaling low diversification in revenue sources.</p>
 
-<p align="justify">**Seasonal Peaks**
+- <p align="justify">Seasonal Peaks
 Sales consistently spike in February, May, August, September, and November, likely driven by reseller restocking schedules and seasonal market demand.</p>
 
-<p align="justify">**Scattered High-Value Customers**
+- <p align="justify">Scattered High-Value Customers
 Top customers individually contribute small sales amounts, suggesting that revenue is widely distributed across multiple reseller accounts rather than concentrated in a few large retail buyers.</p>
 
 ---
